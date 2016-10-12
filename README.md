@@ -1,2 +1,4 @@
-# Daily-Record
-make progress
+# 日志
+
+**2016-10-12**  
+- 【上午】阅读。。。。  
