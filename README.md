@@ -42,4 +42,8 @@
 - 研究**LightControll**  
 -- FOSC(frequency oscillate)晶振频率  
 -- TX(transmit)/RX(receive)  
--- 0x00=0,0x01=1
+-- 0x00=0,0x01=1  
+
+**2016-11-1**  
+- 【上午】投票  
+- 【下午】【晚上】8051单片机知识，深度学习
