@@ -72,3 +72,49 @@ and SDN technologies will be discussed.
 address the essential requirements of generic IIoT applications,
 which can lead to an effective IIoT system design. 
 
+
+#Pre-emptive Flow Installation for Internet of Things Devices within Software Defined Networks  
+#手记  
+>This paper proposes a Pre-emptive Flow Installation Mecha-
+nism (PFIM) that dynamically learns the transmission intervals
+of periodic network flows and installs the corresponding rules
+within a switch, prior to the arrival of a packet.  
+- Section2 presents a brief background review of IoT devices and their
+data characteristics.  IoT Example Scenario:The Smart Care Spaces project/Emergency Services 
+- Section 3 provides further detail of the SDN concept and how it relates to the IoT.  
+- Section 4 presents a proposed Pre-emptive Flow Installation Mechanism (PFIM). 
+- Section 5 evaluates the proposed mechanism in terms of performance characteristics.  
+-  Section 6 concludes and discusses potential future work.  
+
+1.Key Words  
+
+- Idle timeout 空闲超时时间  
+- Hard timeout 硬超时  
+- Pre-emptive Flow Installation Mechanism(PFIM)  
+- three main principles/components of SDN  
+-- Decoupling of controller and data planes 控制平面和数据平面的去耦  
+-- Logically centralised control 从逻辑上集中控制  
+-- Exposure of abstract network resources and state to external applications 抽象的网络资源和状态，以曝光外部应用程序  
+- SDN(A. SDN Standards/B. SDN Controllers/C. SDN Switch Devices)  
+- PFIM's three main components:flow monitoring,flow periodicity checking,and flow installation  
+
+2.Main Ideas  
+
+- 文章第一部分介绍，第二部分介绍背景和物联网装置，第三部分详细介绍SDN组成和关联，第四部分通过图表展现OpenFlow1.0/1.5流规则和安装的不同，第五部分介绍提出的PFIM，第六部分总结。  
+>This paper has presented a discussion of potential per-
+formance issues that may arise from the combination of
+IoT device traffic patterns and current SDN implementations.
+Through the introduction of a proposed Pre-emptive Flow
+Installation Mechanism it has been shown that the patterns
+of periodic data transfers can be observed by a controller and
+flow rules installed prior to the arrival of packets at a switch,
+thus negating the added delay that comes from querying a
+controller. This has been demonstrated through a proof of
+concept implementation within the POX controller framework.  
+
+>Future work will focus on testing within larger topologies,
+across multiple switches, and within a hardware-based test-
+bed. This will include the mixing of IoT device traffic with
+other real network traffic as a means of observing the resulting
+behaviour and adapting the proposed mechanism accordingly.
+
